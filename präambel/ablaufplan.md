@@ -14,5 +14,4 @@
 |_Bonus_ | |
 |15 Minuten	| Ausführbare Markdown-Dateien|
 |15 Minuten	| Jupyter Quiz|
-|20 Minuten	| Metadaten in QUADRIGA|
 |20 Minuten	| Veröffentlichung mit Zenodo-Plugin |
