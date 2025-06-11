@@ -10,7 +10,10 @@ authors: &id001
   family-names: Schnaitter
   orcid: https://orcid.org/0000-0002-1602-6032
   affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
-
+identifiers:
+- type: doi
+  value: 10.5281/zenodo.15640938
+  description: Zenodo
 repository-code: https://github.com/quadriga-dk/OER-Workshop-Template
 url: https://quadriga-dk.github.io/OER-Workshop-Template/
 keywords:
@@ -32,6 +35,10 @@ preferred-citation:
   license: CC-BY-SA-4.0
   publisher: 
     name: QUADRIGA
+  identifiers:
+  - type: doi
+    value: 10.5281/zenodo.15640938
+    description: Zenodo
   languages:
   - deu
   copyright: CC-BY-SA-4.0
