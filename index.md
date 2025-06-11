@@ -10,6 +10,6 @@ Im Rahmen der QUADRIGA Jahrestagung 2025 wird ein Workshop zum Thema ["Jupyter B
   - [Vorkenntnisse](präambel/vorkenntnisse.md)
   - [Ablaufplan](präambel/ablaufplan.md)
 - [Epilog](epilog/toc.md)
-   - [Literaturverzeichnis](epilog/literaturarverzeichnis.md)
+   - [Literaturverzeichnis](epilog/literaturverzeichnis.md)
    - [Autor:innen-Liste](epilog/autor_innen.md)
    - [Impressum](epilog/impressum.md)
