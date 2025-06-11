@@ -1,6 +1,6 @@
 # Jupyter Book für interaktive Open Educational Resources
 
-Im Rahmen der QUADRIGA Jahrestagung 2025 wird ein Workshop zum Thema ["Jupyter Book für interaktive Open Educational Resources"](https://www.quadriga-dk.de/de/quadriga-jahresveranstaltung-2025/workshop-3-oer-templates-mit-jupyter-books) angeboten.
+Im Rahmen der QUADRIGA Jahrestagung 2025 wird ein Workshop zum Thema <a href="https://www.quadriga-dk.de/de/quadriga-jahresveranstaltung-2025/workshop-3-oer-templates-mit-jupyter-books" target="_blank" class="external-link">"Jupyter Book für interaktive Open Educational Resources"</a> angeboten.
 
 
 ## Inhaltsverzeichnis
