@@ -11,6 +11,7 @@ chapters:
       - file: präambel/lernziele.md
       - file: präambel/technische_voraussetzungen.md
       - file: präambel/vorkenntnisse.md
+      - file: präambel/ablaufplan.md
   - file: epilog/toc.md
     sections:
       - file: epilog/literaturverzeichnis.md
