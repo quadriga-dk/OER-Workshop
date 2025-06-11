@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
-title: 'OER Workshop Template'
-abstract: Minimales Template für den Workshop "OER Templates mit Jupyter Book" bei der QUADRIGA Jahrestagung 2025.
+title: 'OER Workshop'
+abstract: Workshop "Jupyter Book für interaktive Open Educational Resources" bei der QUADRIGA Jahrestagung 2025.
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
   `CITATION.cff`.
@@ -25,11 +25,13 @@ references:
 preferred-citation:
   year: 2025
   authors: *id001
-  title: 'OER Workshop Template'
+  title: 'OER Workshop'
   type: book
   url: https://quadriga-dk.github.io/OER-Workshop-Template/
   repository-code: https://github.com/quadriga-dk/OER-Workshop-Template
   license: CC-BY-SA-4.0
+  publisher: 
+    name: QUADRIGA
   languages:
   - deu
   copyright: CC-BY-SA-4.0
