@@ -12,6 +12,23 @@ chapters:
       - file: präambel/technische_voraussetzungen.md
       - file: präambel/vorkenntnisse.md
       - file: präambel/ablaufplan.md
+  - file: grundlagen/einleitung.md
+    sections:
+      - file: grundlagen/dokumente.md
+      - file: grundlagen/jupyter_book.md
+      - file: grundlagen/template.md
+      - file: grundlagen/github.md
+  - file: inhalte/einleitung.md
+    sections:
+      - file: inhalte/setup.md
+      - file: inhalte/markdown.md
+      - file: inhalte/typographie.md
+      - file: inhalte/jupyter_notebooks.ipynb
+  - file: bonus/einleitung.md
+    sections:
+      - file: bonus/ausführbares_markdown.md
+      - file: bonus/jupyterquiz.ipynb
+      - file: bonus/zenodo.md
   - file: epilog/toc.md
     sections:
       - file: epilog/literaturverzeichnis.md
