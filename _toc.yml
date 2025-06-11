@@ -1,0 +1,18 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index.md
+options:
+  numbered: 3
+chapters:
+  - file: präambel/toc.md
+    sections:
+      - file: präambel/lernziele.md
+      - file: präambel/technische_voraussetzungen.md
+      - file: präambel/vorkenntnisse.md
+  - file: epilog/toc.md
+    sections:
+      - file: epilog/literaturverzeichnis.md
+      - file: epilog/autor_innen.md
+      - file: epilog/impressum.md

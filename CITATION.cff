@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
+cff-version: 1.2.0
+title: 'OER Workshop Template'
+abstract: Minimales Template für den Workshop "OER Templates mit Jupyter Book" bei der QUADRIGA Jahrestagung 2025.
+type: software
+message: Please cite this software using the metadata from `preferred-citation` in
+  `CITATION.cff`.
+authors: &id001
+- given-names: Hannes
+  family-names: Schnaitter
+  orcid: https://orcid.org/0000-0002-1602-6032
+  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+
+repository-code: https://github.com/quadriga-dk/OER-Workshop-Template
+url: https://quadriga-dk.github.io/OER-Workshop-Template/
+keywords:
+- Open Educational Resource
+license: CC-BY-SA-4.0
+references:
+- title: Jupyter Book
+  type: software
+  authors:
+  - name: The Jupyter Book Community
+    website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
+preferred-citation:
+  year: 2025
+  authors: *id001
+  title: 'OER Workshop Template'
+  type: book
+  url: https://quadriga-dk.github.io/OER-Workshop-Template/
+  repository-code: https://github.com/quadriga-dk/OER-Workshop-Template
+  license: CC-BY-SA-4.0
+  languages:
+  - deu
+  copyright: CC-BY-SA-4.0
+  keywords:
+  - Open Educational Resource
