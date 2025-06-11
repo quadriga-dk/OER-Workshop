@@ -1,7 +1,3 @@
----
-lang: de-DE
----
-
 # Technische Voraussetzungen
 
 Dieses Template ist für die Nutzung im Rahmen des Workshops und mit GitHub ausgelegt. Sie benötigen einen GitHub-Account, wobei dieser auch nur für den Workshop erstellt werden kann.

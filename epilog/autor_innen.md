@@ -1,6 +1,3 @@
----
-lang: de-DE
----
 # Autor:innen
 
 ## Workshop-Verantwortliche
