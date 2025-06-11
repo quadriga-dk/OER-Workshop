@@ -4,12 +4,12 @@ Im Rahmen der QUADRIGA Jahrestagung 2025 wird ein Workshop zum Thema ["Jupyter B
 
 
 ## Inhaltsverzeichnis
-1. [Präambel](pr%C3%A4ambel/toc.md)
-  1. [Lernziele](präambel/lernziele.md)
-  2. [Technische Voraussetzungen](präambel/technische_voraussetzungen.md)
-  3. [Vorkenntnisse](präambel/vorkenntnisse.md)
-  4. [Ablaufplan](präambel/ablaufplan.md)
-2. [Epilog](epilog/toc.md)
-   1. [Literaturverzeichnis](epilog/literaturarverzeichnis.md)
-   2. [Autor:innen-Liste](epilog/autor_innen.md)
-   3. [Impressum](epilog/impressum.md)
+- [Präambel](pr%C3%A4ambel/toc.md)
+  - [Lernziele](präambel/lernziele.md)
+  - [Technische Voraussetzungen](präambel/technische_voraussetzungen.md)
+  - [Vorkenntnisse](präambel/vorkenntnisse.md)
+  - [Ablaufplan](präambel/ablaufplan.md)
+- [Epilog](epilog/toc.md)
+   - [Literaturverzeichnis](epilog/literaturarverzeichnis.md)
+   - [Autor:innen-Liste](epilog/autor_innen.md)
+   - [Impressum](epilog/impressum.md)
