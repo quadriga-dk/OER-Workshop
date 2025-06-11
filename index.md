@@ -9,6 +9,20 @@ Im Rahmen der QUADRIGA Jahrestagung 2025 wird ein Workshop zum Thema ["Jupyter B
   - [Technische Voraussetzungen](präambel/technische_voraussetzungen.md)
   - [Vorkenntnisse](präambel/vorkenntnisse.md)
   - [Ablaufplan](präambel/ablaufplan.md)
+- Grundlagen
+  - Dokumente des Workshops
+  - Warum Jupyter Book?
+  - Template
+  - GitHub-Einstellungen
+- Inhalte erzeugen
+  - Setup, `_toc.yml`, …
+  - Markdown
+  - weiterführende Typographie und akademische Affordances
+  - Jupyter Notebooks
+- Bonus
+  - Ausführbare Markdown-Dateien
+  - Jupyter Quiz
+  - Veröffentlichung mit Zenodo-Plugin
 - [Epilog](epilog/toc.md)
    - [Literaturverzeichnis](epilog/literaturverzeichnis.md)
    - [Autor:innen-Liste](epilog/autor_innen.md)
