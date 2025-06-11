@@ -1,3 +1,3 @@
-# OER Workshop Template
+# OER Workshop
 
-Minimales Template für den Workshop "OER Templates mit Jupyter Book" bei der QUADRIGA Jahrestagung 2025.
+Workshop "Jupyter Book für interaktive Open Educational Resources" bei der QUADRIGA Jahrestagung 2025.
