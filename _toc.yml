@@ -22,10 +22,10 @@ chapters:
     sections:
       - file: inhalte/setup.md
       - file: inhalte/markdown.md
-      - file: inhalte/typographie.md
       - file: inhalte/jupyter_notebooks.ipynb
   - file: bonus/einleitung.md
     sections:
+      - file: bonus/typographie.md
       - file: bonus/ausführbares_markdown.md
       - file: bonus/jupyterquiz.ipynb
       - file: bonus/zenodo.md
