@@ -1,1 +1,5 @@
-# Dokumente des Workshops
+# Materialien und Dokumente des Workshops
+
+Dieser Workshop vorrangig aus zwei Dokumenten. Dem <a href="https://quadriga-dk.github.io/OER-Workshop" target="_blank" class="external-link">OER-Workshop</a> (<a href="https://github.com/quadriga-dk/OER-Workshop" target="_blank" class="external-link">GitHub</a>), welchen Sie gerade lesen und dem dazugehörigen <a href="https://quadriga-dk.github.io/OER-Workshop-Template" target="_blank" class="external-link">OER-Workshop-Template</a> (<a href="https://github.com/quadriga-dk/OER-Workshop-Template" target="_blank" class="external-link">GitHub</a>). Der Workshop ist desgint, sodass Sie normalerweise nur diese Dokumente benötigen.
+
+Optional können Sie falls nötig das <a href="https://quadriga-dk.github.io/Book_Template" target="_blank" class="external-link">QUADRGIA-Template</a> (<a href="https://github.com/quadriga-dk/Book_Template" target="_blank" class="external-link">GitHub</a>) oder die <a href="https://jupyterbook.org" target="_blank" class="external-link">Jupyter-Book-Dokumentation (en)</a> nutzen.
