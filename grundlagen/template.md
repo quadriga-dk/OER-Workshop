@@ -28,9 +28,12 @@ $ pip install -r requirements.txt # installiere die benötigten Python Pakete
 Wollen Sie Jupyter Book dann nutzen, stellen Sie sicher, dass Sie im Wurzelordner Ihres Jupyter-Book-Projekts sind und, dass das passende 'virtual environment' aktiviert ist. Nutzen Sie dann die nachfolgenden Befehle:
 
 ```bash
-$ jupyter book build .       # Kompiliert die Website und speichert dieses im Ordner /_build/html
+# Kompiliert die Website und speichert das Ergebnis im Ordner /_build/html
+$ jupyter book build .
 
-$ jupyter book clean . --all # Bereinigt den Ordner _build um dann das Buch vollständig neu bauen zu können
+# Bereinigt den Ordner _build um dann das Buch vollständig neu bauen zu können
+# Muss nicht immer ausgeführt werden, kann jedoch bspw. Probleme mit dem Inhaltsverzeichnis lösen
+$ jupyter book clean . --all
 ```
 
 ## Git-Dateien
