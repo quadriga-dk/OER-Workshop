@@ -1,17 +1,17 @@
-# Ablaufplan
+# Timetable
 
-|Zeit	|Inhalt|
+|Time	|Content|
 | :---	| :---	|
-|0:00-0:05 – 5 Minuten	| Begrüßung, Vorstellung und [Inhalte](/basics/introduction.md)|
-|0:05-0:10 – 5 Minuten	| [Materialien und Dokumente für den Workshop](/basics/documents.md)|
-|0:10-0:20 – 10 Minuten	| [Warum Jupyter Book?](/basics/jupyter_book.md)|
-|0:20-0:40 – 20 Minuten	| [Repo erstellen mit Template](/basics/template.md), [GitHub-Einstellungen](/basics/github.md), [Technologie](/content/setup.md)|
-|0:40-1:00 – 20 Minuten	| [Die ersten eigenen Inhalte (Markdown)](/content/markdown.md)|
-|1:00-1:20 – 20 Minuten	| [Jupyter Notebook Integration (mit Grafik basierend auf Datensatz)](/content/jupyter_notebooks.ipynb)|
-|1:20-1:30 – 10 Minuten	| Abschluss|
+|0:00-0:05 – 5 minutes	| Welcome and [overview of the workshop contents](/basics/introduction.md)|
+|0:05-0:15 – 10 minutes | Live Demo "This is what we'll build" + Questions |
+|0:15-0:20 – 5 minutes	| [Materials and documents for the workshop](/basics/documents.md)|
+|0:20-0:40 – 20 minutes	| [Creating a repo with the template](/basics/template.md), [GitHub settings](/basics/github.md), [Technology](/content/setup.md)|
+|0:40-1:00 – 20 minutes	| [Your first own content (Markdown)](/content/markdown.md)|
+|1:00-1:20 – 20 minutes	| [Jupyter Notebook integration](/content/jupyter_notebooks.ipynb)|
+|1:20-1:30 – 10 minutes	| Show & tell; Conclusion|
 | | |
 |_Bonus_ | |
-|20 Minuten | [Typographie, akademische Affordances](/bonus/typography.md)|
-|20 Minuten	| [Ausführbare Markdown-Dateien](/bonus/executable_markdown.md)|
-|20 Minuten	| [Jupyter Quiz](/bonus/jupyterquiz.ipynb)|
-|20 Minuten	| [Veröffentlichung mit Zenodo-Plugin](/bonus/zenodo.md)|
+|20 minutes | [Advanced typography, academic writing](/bonus/typography.md)|
+|20 minutes	| [Executable Markdown files](/bonus/executable_markdown.md)|
+|20 minutes	| [Jupyter Quiz](/bonus/jupyterquiz.ipynb)|
+|20 minutes	| [Publishing with Zenodo Plugin](/bonus/zenodo.md)|
