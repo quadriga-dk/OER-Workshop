@@ -1,16 +1,16 @@
-# Autor:innen
+# Authors
 
-## Workshop-Verantwortliche
+## Workshop Leaders
 
-### Hannes Schnaitter <span style="font-size:8pt">(er/ihm/sein)</span> <a href="https://orcid.org/0000-0002-1602-6032" target="_blank"><img src="../assets/ORCID-iD_icon_24x24.png" alt="ORCID"></a>
+### Hannes Schnaitter <span style="font-size:8pt">(he/him/his)</span> <a href="https://orcid.org/0000-0002-1602-6032" target="_blank"><img src="../assets/ORCID-iD_icon_24x24.png" alt="ORCID"></a>
 
 <table style="margin-left: 0">
 <tr>
-<td><b>Rolle in QUADRIGA:</b></td>
-<td>Assessment, Testing und Iteration, Koordination verschiedener Teil-Arbeitspakete</td>
+<td><b>Role in QUADRIGA:</b></td>
+<td>Assessment, Testing and Iteration, Coordination of various sub-work packages</td>
 </tr>
 <tr>
-<td><b>Einrichtung:</b></td>
+<td><b>Institution:</b></td>
 <td>Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft</td>
 </tr>
 <tr>
@@ -26,16 +26,16 @@
 ### Evgenia Samoilova <a href="https://orcid.org/0000-0003-3858-901X" target="_blank"><img src="../assets/ORCID-iD_icon_24x24.png" alt="ORCID"></a>
 <table style="margin-left: 0">
 <tr>
-<td><b>Rolle in QUADRIGA:</b></td>
-<td>Didaktisches Konzept, Koordination verschiedener Teil-Arbeitspakete</td>
+<td><b>Role in QUADRIGA:</b></td>
+<td>Didactic Concept, Coordination of various sub-work packages</td>
 </tr>
 <tr>
-<td><b>Einrichtung:</b></td>
+<td><b>Institution:</b></td>
 <td>Universität Potsdam</td>
 </tr>
 <tr>
 <td><b>Website:</b></td>
-<td><a href="https://www.uni-potsdam.de/de/multimedia/team/wissenschaftliches-personal/evgenia-samoilova-phd" class="external-link" target="_blank">Mitarbeiterinnen-Seite Universität Potsdam</td>
+<td><a href="https://www.uni-potsdam.de/de/multimedia/team/wissenschaftliches-personal/evgenia-samoilova-phd" class="external-link" target="_blank">Mitarbeiterinnen-Seite Universität Potsdam</a></td>
 </tr>
 <tr>
 <td><b>GitHub:</b></td>
@@ -46,11 +46,11 @@
 ### Lamia Islam
 <table style="margin-left: 0">
 <tr>
-<td><b>Rolle in QUADRIGA:</b></td>
-<td>Technische Unterstützung (WHK)</td>
+<td><b>Role in QUADRIGA:</b></td>
+<td>Technical Support (Student Assistant)</td>
 </tr>
 <tr>
-<td><b>Einrichtung:</b></td>
+<td><b>Institution:</b></td>
 <td>Universität Potsdam</td>
 </tr>
 <tr>
