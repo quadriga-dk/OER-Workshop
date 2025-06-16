@@ -15,8 +15,8 @@
 
 ### `_toc.yml`
 
-- [ ] Update file references to translated filenames (if renaming files)
-- [ ] No direct text content to translate in this file
+- [x] Update file references to translated filenames (if renaming files)
+- [x] No direct text content to translate in this file
 
 ## Content Files
 
@@ -102,9 +102,9 @@
 
 ### File Structure
 
-- [ ] Decide whether to rename German folder names (`präambel`, `grundlagen`, `inhalte`, `bonus`, `epilog`)
-- [ ] Update `_toc.yml` if folder/file names change
-- [ ] Update all internal links if file paths change
+- [x] Decide whether to rename German folder names (`präambel`, `grundlagen`, `inhalte`, `bonus`, `epilog`)
+- [x] Update `_toc.yml` if folder/file names change
+- [x] Update all internal links if file paths change
 
 ### Testing
 
