@@ -1,6 +1,6 @@
 # Lernziele
 
-```{admonition} [Jupyter Book](/grundlagen/einleitung.md)
+```{admonition} [Jupyter Book](/basics/introduction.md)
 :class: lernziele
 
 1. Wissen über die Vor- und Nachteile von Jupyter Book für die OER-Erstellung.
@@ -8,7 +8,7 @@
 3. Konfiguration von GitHub (GitHub Actions und GitHub Pages) um neue Versionen automatisch zu kompilieren.
 ```
 
-```{admonition} [Inhalte erstellen](/inhalte/einleitung.md)
+```{admonition} [Inhalte erstellen](/content/introduction.md)
 :class: lernziele
 
 1. Schreiben von Inhalten mit grundlegenden Markdown Elementen.
@@ -16,7 +16,7 @@
 3. Konfiguration des Inhaltsverzeichnisses (`_toc.yml`) um die selbst verfassten Inhalte korrekt geordnet zu präsentieren.
 ```
 
-```{admonition} [Bonus: weiterführende Themen](/bonus/einleitung.md)
+```{admonition} [Bonus: weiterführende Themen](/bonus/introduction.md)
 :class: lernziele
 
 1. Nutzung weiterführender MyST-Markdown-Elemente

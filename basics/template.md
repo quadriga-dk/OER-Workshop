@@ -9,11 +9,11 @@ Das Template beinhaltet verschiedene Ordner und Dateien, auf die in diesem Absch
 ## Jupyter-Book-Dateien
 Jupyter Book besteht aus zwei Konfigurationsdateien (`/_config.yml` und `/_toc.yml`), den zugehörigen inhaltstragenden Dateien (`.md`, `.ipynb`, Bilddateien, …) sowie den für die Website-Darstellung notwendigen `.css`- und `.js`-Dateien im Ordner `/_static`. Die Datei `/references.bib` wird für das Zitieren und Referenzieren von Literatur genutzt. 
 
-Die inhaltstragenden Dateien sind in den Ordnern `/präambel` und `/epilog` für Text- sowie `/assets` für Bild-, und andere Dateien sortiert. Diese Sortierung wird nicht durch Jupyter Book vorgeschrieben, bietet sich aber für die bessere Übersichtlichkeit während des Erstellens der OER an. Wir empfehlen die Inhaltsdateien zu einem Kapitel in einem Ordner zu sammeln.
+Die inhaltstragenden Dateien sind in den Ordnern `/preamble` und `/epilog` für Text- sowie `/assets` für Bild-, und andere Dateien sortiert. Diese Sortierung wird nicht durch Jupyter Book vorgeschrieben, bietet sich aber für die bessere Übersichtlichkeit während des Erstellens der OER an. Wir empfehlen die Inhaltsdateien zu einem Kapitel in einem Ordner zu sammeln.
 
 Die Einstiegsseite (im Template `/index.md`) sowie die Websitestruktur wird im Inhaltsverzeichnis `/_toc.yml` definiert. Dateien müssen im Inhaltsverzeichnis aufgeführt sein um in der Website, die durch Jupyter Book kompiliert wird, angezeigt zu werden.
 
-Die Datei `/_config.yml` stellt die Konfiguration von Jupyter Book dar. Große Teile der Datei können direkt übernommen werden – auf die anzupassenden Teile wird im [nächsten Kapitel](/inhalte/setup.md) eingegangen.
+Die Datei `/_config.yml` stellt die Konfiguration von Jupyter Book dar. Große Teile der Datei können direkt übernommen werden – auf die anzupassenden Teile wird im [nächsten Kapitel](/content/setup.md) eingegangen.
 
 ## Python-Dateien
 Um Jupyter Book auf dem eigenen Computer zu nutzen muss dieses zuerst installiert werden. Dafür benötigen Sie Python – am besten in der Version, die in `/.python-version` angegeben ist – und müssen dann die in der Datei `/requirements.txt` angegebenen Pakete installieren.

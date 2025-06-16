@@ -6,31 +6,31 @@ root: index.md
 options:
   numbered: 3
 chapters:
-  - file: präambel/toc.md
+  - file: preamble/toc.md
     sections:
-      - file: präambel/lernziele.md
-      - file: präambel/technische_voraussetzungen.md
-      - file: präambel/vorkenntnisse.md
-      - file: präambel/ablaufplan.md
-  - file: grundlagen/einleitung.md
+      - file: preamble/learning_objectives.md
+      - file: preamble/technical_prerequisites.md
+      - file: preamble/prior_knowledge.md
+      - file: preamble/timetable.md
+  - file: basics/introduction.md
     sections:
-      - file: grundlagen/dokumente.md
-      - file: grundlagen/jupyter_book.md
-      - file: grundlagen/template.md
-      - file: grundlagen/github.md
-  - file: inhalte/einleitung.md
+      - file: basics/documents.md
+      - file: basics/jupyter_book.md
+      - file: basics/template.md
+      - file: basics/github.md
+  - file: content/introduction.md
     sections:
-      - file: inhalte/setup.md
-      - file: inhalte/markdown.md
-      - file: inhalte/jupyter_notebooks.ipynb
-  - file: bonus/einleitung.md
+      - file: content/setup.md
+      - file: content/markdown.md
+      - file: content/jupyter_notebooks.ipynb
+  - file: bonus/introduction.md
     sections:
-      - file: bonus/typographie.md
-      - file: bonus/ausführbares_markdown.md
+      - file: bonus/typography.md
+      - file: bonus/executable_markdown.md
       - file: bonus/jupyterquiz.ipynb
       - file: bonus/zenodo.md
   - file: epilog/toc.md
     sections:
-      - file: epilog/literaturverzeichnis.md
-      - file: epilog/autor_innen.md
+      - file: epilog/references.md
+      - file: epilog/authors.md
       - file: epilog/impressum.md

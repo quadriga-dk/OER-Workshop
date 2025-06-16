@@ -1,5 +1,5 @@
 # Epilog
 
-- [Literaturverzeichnis](literaturverzeichnis.md)
-- [Autor:innen](autor_innen.md)
+- [List of References](references.md)
+- [Authors](authors.md)
 - [Impressum](impressum.md)
