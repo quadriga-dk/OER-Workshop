@@ -1,6 +1,6 @@
-# Literaturverzeichnis
+# List of References
 
-Hier finden Sie die gesamte Literatur, die in dieser OER referenziert wurde. Sie können Sie zudem als [BibTeX-Datei](../references.bib) (`.bib`) herunterladen, um Sie bspw. in Ihrem Literaturverwaltungsprogramm zu importieren.
+This is a list of all references used in this OER. You can also download it as a [BibTeX file](../references.bib) (`.bib`) to import it into your reference management software.
 
 ```{bibliography}
 :list: bullet
