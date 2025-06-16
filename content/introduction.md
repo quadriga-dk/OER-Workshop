@@ -1,6 +1,6 @@
 # Inhalte erzeugen
 
-```{admonition} [Inhalte erstellen](/inhalte/einleitung.md)
+```{admonition} [Inhalte erstellen](/content/introduction.md)
 :class: lernziele
 
 1. Schreiben von Inhalten mit grundlegenden Markdown Elementen.
