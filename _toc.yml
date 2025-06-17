@@ -30,6 +30,10 @@ chapters:
       - file: bonus/executable_markdown.md
       - file: bonus/jupyterquiz.ipynb
       - file: bonus/zenodo.md
+  - file: results/introduction.md
+    sections:
+      - file: results/what_is_trust.md
+      - file: results/analyzing_data_on_trust.ipynb
   - file: epilog/toc.md
     sections:
       - file: epilog/references.md
