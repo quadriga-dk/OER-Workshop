@@ -1,1 +1,1 @@
-# Setup und Konfiguration von Jupyter Book
+# Setup and Configuration of Jupyter Book
