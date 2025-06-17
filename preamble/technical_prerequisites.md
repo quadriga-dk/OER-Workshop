@@ -1,14 +1,14 @@
-# Technische Voraussetzungen
+# (Technical) Prerequisites
 
-Dieses Template ist für die Nutzung im Rahmen des Workshops und mit GitHub ausgelegt. Sie benötigen einen GitHub-Account, wobei dieser auch nur für den Workshop erstellt werden kann.
+This template is designed for use within the workshop and with <a href="https://github.com" target="_blank" class="external-link">GitHub</a>. You need a GitHub account, which can also be created just for the workshop.
 
-Für die Nutzung der GitHub-Pages-Funktionalität muss Ihre Übungs-OER öffentlich verfügbar sein.
+To use the GitHub Pages functionality, your practice OER must be publicly available.
 
-Die Bearbeitung der Dateien funktioniert am besten entweder in einem lokalen Editor direkt in GitHub. Sie können auch JupyterHub nutzen um bspw. Juypter Notebooks zu bearbeiten – so erstellte Dateien müssen heruntergeladen und dann in GitHub hochgeladen werden.
+Editing files works best either in a local editor or directly in GitHub. You can also use JupyterHub to edit Jupyter Notebooks, for example – files created this way must be downloaded and then uploaded to GitHub.
 
-QUADRIGA nutzt als zugrundeliegende Technologie [Jupyter Book](https://jupyterbook.org/intro.html) {cite}`executable_books_community_2021`.
+QUADRIGA uses [Jupyter Book](https://jupyterbook.org/intro.html) {cite}`executable_books_community_2021` as its underlying technology.
 
-## Literatur
+## References
 ```{bibliography}
 :filter: docname in docnames
 :style: plain
