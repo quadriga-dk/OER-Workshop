@@ -1,53 +1,62 @@
 # Template
 
-Für die Nutzung im Workshop wurde ein <a href="https://quadriga-dk.github.io/OER-Workshop-Template" target="_blank" class="external-link">Template</a> (<a href="https://github.com/quadriga-dk/OER-Workshop-Template" target="_blank" class="external-link">GitHub</a>) entwickelt, das für den Start mit Jupyter Book genutzt werden kann. Dieses basiert auf dem <a href="https://quadriga-dk.github.io/Book_Template" target="_blank" class="external-link">QUADRIGA-Template</a> (<a href="https://github.com/quadriga-dk/Book_Template" target="_blank" class="external-link">GitHub</a>), wobei viele QUADRIGA-Spezifika entfernt wurden.
+For use in the workshop, a <a href="https://quadriga-dk.github.io/OER-Workshop-Template" target="_blank" class="external-link">Template</a> (<a href="https://github.com/quadriga-dk/OER-Workshop-Template" target="_blank" class="external-link">GitHub</a>) has been developed that can be used to get started with Jupyter Book. This is based on the <a href="https://quadriga-dk.github.io/Book_Template" target="_blank" class="external-link">QUADRIGA-Template</a> (<a href="https://github.com/quadriga-dk/Book_Template" target="_blank" class="external-link">GitHub</a>), with many QUADRIGA-specific features removed.
 
-Für die Versionsverwaltung und gemeinsame Arbeit an den Inhalten nutzen wir Git und sowie die sog. Git Forge GitHub, welche nicht nur das Git-Repositorium speichert und die Zugriffsrechte darauf verwaltet, sondern auch ein Issue-System, ein CI/CD-System und einen Webhost bereitstellt.
+For version control and collaborative work on content, we use Git and the so-called Git Forge GitHub, which not only stores the Git repository and manages access rights to it, but also provides an issue system, a CI/CD system, and a web host.
 
-Das Template beinhaltet verschiedene Ordner und Dateien, auf die in diesem Abschnitt eingegangen wird.
+The template contains various folders and files, which are discussed in this section.
 
-## Jupyter-Book-Dateien
-Jupyter Book besteht aus zwei Konfigurationsdateien (`/_config.yml` und `/_toc.yml`), den zugehörigen inhaltstragenden Dateien (`.md`, `.ipynb`, Bilddateien, …) sowie den für die Website-Darstellung notwendigen `.css`- und `.js`-Dateien im Ordner `/_static`. Die Datei `/references.bib` wird für das Zitieren und Referenzieren von Literatur genutzt. 
+## Jupyter Book Files
+Jupyter Book consists of two configuration files (`_config.yml` and `_toc.yml`), the associated content files (`.md`, `.ipynb`, image files, ...) as well as the `.css` and `.js` files necessary for website display situated in the `_static` folder. The `references.bib` file is used for citing and referencing literature.
 
-Die inhaltstragenden Dateien sind in den Ordnern `/preamble` und `/epilog` für Text- sowie `/assets` für Bild-, und andere Dateien sortiert. Diese Sortierung wird nicht durch Jupyter Book vorgeschrieben, bietet sich aber für die bessere Übersichtlichkeit während des Erstellens der OER an. Wir empfehlen die Inhaltsdateien zu einem Kapitel in einem Ordner zu sammeln.
+The content files are sorted into the `preamble/` and `epilog/` folders for text, and `assets/` for image and other content files. This sorting is not required by Jupyter Book, but is useful for better overview during OER creation. We recommend collecting content files for a chapter in one folder.
 
-Die Einstiegsseite (im Template `/index.md`) sowie die Websitestruktur wird im Inhaltsverzeichnis `/_toc.yml` definiert. Dateien müssen im Inhaltsverzeichnis aufgeführt sein um in der Website, die durch Jupyter Book kompiliert wird, angezeigt zu werden.
+The entry page (in the template `index.md`) as well as the website structure are defined in the table of contents `_toc.yml`. Files must be listed in the table of contents to be displayed on the website compiled by Jupyter Book.
 
-Die Datei `/_config.yml` stellt die Konfiguration von Jupyter Book dar. Große Teile der Datei können direkt übernommen werden – auf die anzupassenden Teile wird im [nächsten Kapitel](/content/setup.md) eingegangen.
+The `_config.yml` file represents the configuration of Jupyter Book. Large parts of the file can be directly adopted – the parts that need to be adapted for this workshop are discussed in the [next chapter](/content/setup.md).
 
-## Python-Dateien
-Um Jupyter Book auf dem eigenen Computer zu nutzen muss dieses zuerst installiert werden. Dafür benötigen Sie Python – am besten in der Version, die in `/.python-version` angegeben ist – und müssen dann die in der Datei `/requirements.txt` angegebenen Pakete installieren.
+## Python Files
+To use Jupyter Book on your own computer, it must first be installed. For this you need Python – preferably in the version specified in `.python-version` – and then you need to install the packages specified in the `requirements.txt` file.
 
-Für den Workshop ist dies nicht notwendig. Wünschen Sie eine lokale installation, so funktioniert das mit den nachfolgenden Befehlen:
-
-```bash
-$ python3.13 -m venv .venv        # erstelle ein neues sog. virtual environment
-$ source .venv/bin/activate       # aktiviere das environment
-$ pip install -r requirements.txt # installiere die benötigten Python Pakete
+```{admonition} Important
+:class: important
+For the workshop, you do not need to install Jupyter Book on your own computer. You can use the GitHub repository directly and work with it in the browser.
 ```
-Wollen Sie Jupyter Book dann nutzen, stellen Sie sicher, dass Sie im Wurzelordner Ihres Jupyter-Book-Projekts sind und, dass das passende 'virtual environment' aktiviert ist. Nutzen Sie dann die nachfolgenden Befehle:
+
+````{admonition} Instructions for Local Installation
+:class: hinweis, dropdown
+
+If you want a local installation, this works with the following commands:
 
 ```bash
-# Kompiliert die Website und speichert das Ergebnis im Ordner /_build/html
+$ python3.13 -m venv .venv        # create a new virtual environment
+$ source .venv/bin/activate       # activate the environment
+$ pip install -r requirements.txt # install the required Python packages
+```
+If you want to use Jupyter Book then, make sure you are in the root folder of your Jupyter Book project and that the appropriate virtual environment is activated. Then use the following commands:
+
+```bash
+# Compiles the website and saves the result in the _build/html/ folder.
 $ jupyter book build .
 
-# Bereinigt den Ordner _build um dann das Buch vollständig neu bauen zu können
-# Muss nicht immer ausgeführt werden, kann jedoch bspw. Probleme mit dem Inhaltsverzeichnis lösen
+# Cleans the _build folder to allow the book to be completely rebuilt.
+# Does only need to be run if there are problems for example with the page navigation.
 $ jupyter book clean . --all
 ```
+````
 
-## Git-Dateien
-Die Datei `/.gitignore` definiert, welche Dateien nicht in der Versionverwaltung geführt und versioniert werden sollen. Dies betrifft insbesondere den Jupyter-Book-Ergebnis-Ordner `/_build` sowie verschiedene Cache-Dateien die durch die Ausführung von Python-Code enstehen. Die Datei muss im Workshop nicht verändert werden.
+## Git Files
+The `.gitignore` file defines which files should not be tracked and versioned in version control. This particularly affects the Jupyter Book result folder `_build/` as well as various cache files that are created by running Python code. The file does not need to be changed in the workshop.
 
-Die gesamte Versionskontrolle findet im Ordner `/.git` statt, weshalb Inhalte dieses Ordners nie von Hand verändert werden sollten.
+All version control takes place in the `.git/` folder, which is why the contents of this folder should _never_ be changed manually.
 
-## GitHub-Dateien
-Im Ordner `/.github` wird im Ordner `/.github/workflows` die sogenannte GitHub Action `deploy-book-python-only.yml` definiert. Diese führt beim Speichern von Änderungen auf GitHub (im sog. Branch `main`) verschiedene Befehle aus um das Jupyter Book zu kompilieren und das Ergebnis per GitHub Pages bereitzustellen. Die Inhalte der Datei müssen im Workshop nicht angepasst werden.
+## GitHub Files
+In the `.github/` folder, the so-called GitHub Action `deploy-book-python-only.yml` is defined in the `.github/workflows/` folder. This executes various commands when saving changes to GitHub (in the so-called `main` branch) to compile the Jupyter Book and provide the result via GitHub Pages. The contents of the file do not need to be adjusted in the workshop.
 
-Die Datei `README.md` beinhaltet eine kurze Beschreibung der Inhalte des Repositoriums und wird auf GitHub prominent angezeigt.
+The `README.md` file contains a brief description of the repository contents and is prominently displayed on GitHub.
 
-## Zusätzliche Dateien
+## Additional Files
 
-In der Datei `LICENSE.md` werden Informationen zur Nutzungslizenzen festgehalten.
+The `LICENSE.md` file contains information about the licenses for the contents and the code of the template.
 
-Die Datei `CITATION.cff` definiert Metadaten für die Zitation des Git-Repositoriums. Sie wird von GitHub und von Zenodo genutzt um Zitierhinweise zu generieren.
+The `CITATION.cff` file defines metadata for citing the Git repository. It is used by GitHub and Zenodo to generate citation information.
