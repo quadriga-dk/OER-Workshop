@@ -10,6 +10,13 @@ authors: &id001
   family-names: Schnaitter
   orcid: https://orcid.org/0000-0002-1602-6032
   affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+- given-names: Lamia
+  family-names: Islam
+  affiliation: Universität Potsdam
+- given-names: Evgenia
+  family-names: Samoilova
+  orcid: https://orcid.org/0000-0003-3858-901X
+  affiliation: Universität Potsdam
 identifiers:
 - type: doi
   value: 10.5281/zenodo.15640938
