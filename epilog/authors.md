@@ -35,7 +35,7 @@
 </tr>
 <tr>
 <td><b>Website:</b></td>
-<td><a href="https://www.uni-potsdam.de/de/multimedia/team/wissenschaftliches-personal/evgenia-samoilova-phd" class="external-link" target="_blank">Mitarbeiterinnen-Seite Universität Potsdam</a></td>
+<td><a href="https://www.uni-potsdam.de/en/multimedia/team/scientific-staff/evgenia-samoilova-phd" class="external-link" target="_blank">Mitarbeiterinnen-Seite Universität Potsdam</a></td>
 </tr>
 <tr>
 <td><b>GitHub:</b></td>
