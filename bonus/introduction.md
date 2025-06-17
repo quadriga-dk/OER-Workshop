@@ -1,14 +1,14 @@
 # Bonus
 
-```{admonition} [Bonus: weiterführende Themen](/bonus/introduction.md)
+```{admonition} [Bonus: Advanced Topics](/bonus/introduction.md)
 :class: lernziele
 
-1. Nutzung weiterführender MyST-Markdown-Elemente
-2. Vergleich von ausführbaren MyST-Markdown- und Jupyter-Notebook-Dateien
-3. Erstellung von einfachen Assessments mit Jupyter Quiz
-4. Veröffentlichung mit Zenodo-Plugin
+1. Using advanced MyST-Markdown elements
+2. Comparison of executable MyST-Markdown and Jupyter notebook files
+3. Creating simple assessments with Jupyter Quiz
+4. Publishing with Zenodo plugin
 ```
 
-Das Bonus-Kapitel bietet Ihnen Material zum Weiterarbeiten – sei es während des Workshops, weil Sie einzelne Aspekte schon kennen, oder im Nachgang des Workshops. Als Übergang zur Nutzung der anderen QUADRIGA-Ressourcen oder der Dokumentation von Jupyter Book selbst finden Sie in diesem Kapitel Hinweise darauf, wie Sie die [erweiterten Auszeichnungsmöglichkeiten von MyST-Markdown nutzen](typography.md), wie Sie [MyST-Markdown-Dateien ausführbar machen](executable_markdown.md), wie einfaches [Assessment mit Jupyter Quiz](jupyterquiz.ipynb) umgesetzt wird und wie Sie Ihre OER [mit dem Zenodo-Plugin veröffentlichen](zenodo.md).
+The bonus chapter provides you with material to continue working – whether during the workshop because you already know certain aspects, or after the workshop. As a transition to using other QUADRIGA resources or the Jupyter Book documentation itself, you will find guidance in this chapter on how to [use the advanced markup features of MyST-Markdown](typography.md), how to [make MyST-Markdown files executable](executable_markdown.md), how simple [assessment with Jupyter Quiz](jupyterquiz.ipynb) is implemented, and how to [publish your OER with the Zenodo plugin](zenodo.md).
 
-Sie können alle Inhalte der Reihe nach durcharbeiten oder sich nur bearbeiten, was Sie gerade interessiert.
+You can work through all content in sequence or just work on what currently interests you.
