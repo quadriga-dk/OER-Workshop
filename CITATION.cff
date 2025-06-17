@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
 title: 'OER Workshop'
-abstract: Workshop "Jupyter Book für interaktive Open Educational Resources" bei der QUADRIGA Jahrestagung 2025.
+abstract: Workshop "Jupyter Book für interaktive Open Educational Resources" / "Jupyter Book for Interactive Open Educational Resources" at the QUADRIGA Annual Conference 2025.
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
   `CITATION.cff`.

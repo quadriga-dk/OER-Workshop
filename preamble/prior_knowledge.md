@@ -1,11 +1,11 @@
-# Vorkenntnisse
+# Prior Knowledge
 
-Sie müssen keine spezifischen Vorkenntnisse mitbringen. Wir bieten drei verschiedene Zugangswege:
+You don't need to bring any specific prior knowledge. We offer three different access methods:
 
-**📘 Book-Only Mode:** Im Browser lesen Sie unser interaktives Lehrbuch mit eingeschränkten Interaktionsmöglichkeiten. Erfordert keine Programmierkenntnisse oder Erfahrung mit Jupyter Notebooks.
+**📘 Book-Only Mode:** Read our interactive textbook in the browser with limited interaction capabilities. Requires no programming knowledge or experience with Jupyter Notebooks.
 
-**🌨️ Cloud Mode:** Ausführen und Anpassen der enthaltenen Jupyter Notebooks über Google Colab oder Binder. Kapitel mit ausführbaren Notebooks sind durch ein _Raketen-Symbol_ (🚀) gekennzeichnet - klicken Sie darauf, um das Notebook in Colab zu öffnen.
+**🌨️ Cloud Mode:** Execute and customize the included Jupyter Notebooks via Google Colab or Binder. Chapters with executable notebooks are marked with a _rocket symbol_ (🚀) - click on it to open the notebook in one of these Notebook hosts.
 
-**💻 Local Mode:** Herunterladen der Jupyter Notebooks auf Ihren Computer zur lokalen Ausführung (z.B. im Anaconda Navigator). Ermöglicht die Nutzung lokaler Daten und umfassende Anpassungen.
+**💻 Local Mode:** Download the Jupyter Notebooks to your computer for local execution (e.g., in Anaconda Navigator). Enables the use of local data and comprehensive customizations.
 
-Wählen Sie den Ansatz, der am besten zu Ihren Anforderungen passt. Sie können jederzeit zwischen den Methoden wechseln.
+Choose the approach that best fits your requirements. You can switch between methods at any time.

@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: "OER-Workshop"
+title: "OER Workshop"
 author: QUADIRGA, Hannes Schnaitter
 logo: assets/logo.jpg
 copyright: "2025, QUADRIGA"
@@ -51,8 +51,8 @@ html:
   use_issues_button: true
   use_repository_button: true
   extra_footer: |
-    <p xmlns:cc="http://creativecommons.org/ns#" >Dieses Werk ist lizensiert unter der Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" class="external-link" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a>. Detailliertere Informationen finden Sie unter <a href="https://github.com/quadriga-dk/OER-Workshop/blob/main/LICENSE.md" target="_blank" class="external-link">LICENSE.md</a></p>
-    <p>Diese OER wurde im Rahmen des Projekts <a href="https://www.quadriga-dk.de" target="_blank" class="external-link">QUADRIGA</a> erstellt. Das Projekt wurde gefördert durch das <a href="https://www.bmbf.de" target="_blank" class="external-link">Bundesministerium für Forschungs, Technologie und Raumfahrt (BMFTR)</a>.</p>
+    <p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" class="external-link" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a>. For more detailed information, visit <a href="https://github.com/quadriga-dk/OER-Workshop/blob/main/LICENSE.md" target="_blank" class="external-link">LICENSE.md</a></p>
+    <p>This OER was created as part of the <a href="https://www.quadriga-dk.de" target="_blank" class="external-link">QUADRIGA</a> project. The project was funded by the <a href="https://www.bmbf.de" target="_blank" class="external-link">Federal Ministry of Research, Technology and Space (Bundesministerium für Forschung, Technologie und Raumfahrt, BMFTR)</a>.</p>
     <p><a href="https://quadriga-dk.github.io/OER-Workshop/epilog/impressum.html">Impressum</a></p>
   use_multitoc_numbering: false
 

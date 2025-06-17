@@ -1,27 +1,27 @@
-# Lernziele
+# Learning Objectives
 
 ```{admonition} [Jupyter Book](/basics/introduction.md)
 :class: lernziele
 
-1. Wissen über die Vor- und Nachteile von Jupyter Book für die OER-Erstellung.
-2. Nutzung des Templates um eine neue OER zu erstellen.
-3. Konfiguration von GitHub (GitHub Actions und GitHub Pages) um neue Versionen automatisch zu kompilieren.
+1. Knowledge of the advantages and disadvantages of Jupyter Book for OER creation.
+2. Using the template to create a new OER.
+3. Configuring GitHub (GitHub Actions and GitHub Pages) to automatically compile new versions.
 ```
 
-```{admonition} [Inhalte erstellen](/content/introduction.md)
+```{admonition} [Creating Content](/content/introduction.md)
 :class: lernziele
 
-1. Schreiben von Inhalten mit grundlegenden Markdown Elementen.
-2. Auswahl des passendend Dateityps (`.md` oder `.ipynb`) abhängig von den Anforderungen an die jeweilige Unterseite.
-3. Konfiguration des Inhaltsverzeichnisses (`_toc.yml`) um die selbst verfassten Inhalte korrekt geordnet zu präsentieren.
+1. Writing content with basic Markdown elements.
+2. Selecting the appropriate file type (`.md` or `.ipynb`) depending on the requirements of each subpage.
+3. Configuring the table of contents (`_toc.yml`) to present self-authored content in the correct order.
 ```
 
-```{admonition} [Bonus: weiterführende Themen](/bonus/introduction.md)
+```{admonition} [Bonus: Advanced Topics](/bonus/introduction.md)
 :class: lernziele
 
-1. Nutzung weiterführender MyST-Markdown-Elemente
-2. Vergleich von ausführbaren MyST-Markdown- und Jupyter-Notebook-Dateien
-3. Erstellung von einfachen Assessments mit Jupyter Quiz
-4. Veröffentlichung mit Zenodo-Plugin
+1. Using advanced MyST-Markdown elements
+2. Comparing executable MyST-Markdown and Jupyter Notebook files
+3. Creating simple assessments with Jupyter Quiz
+4. Publishing with Zenodo plugin
 ```
 

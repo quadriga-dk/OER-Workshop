@@ -1,1 +1,1 @@
-# weiterführende Typographie
+# Advanced Typography and Academic Writing

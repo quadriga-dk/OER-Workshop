@@ -1,10 +1,10 @@
-# Jupyter Book für interaktive Open Educational Resources
+# Jupyter Book for Interactive Open Educational Resources
 
-Im Rahmen der QUADRIGA Jahrestagung 2025 wird ein Workshop zum Thema <a href="https://www.quadriga-dk.de/de/quadriga-jahresveranstaltung-2025/workshop-3-oer-templates-mit-jupyter-books" target="_blank" class="external-link">"Jupyter Book für interaktive Open Educational Resources"</a> angeboten.
+As part of the QUADRIGA Annual Conference 2025, a workshop on <a href="https://www.quadriga-dk.de/de/quadriga-jahresveranstaltung-2025/workshop-3-oer-templates-mit-jupyter-books" target="_blank" class="external-link">"Jupyter Book for Interactive Open Educational Resources"</a> is offered.
 
-Das vorliegende Buch dient als Grundlage des Workshops, kann jedoch auch als Selbstlernkurs genutzt werden.
+This book serves as the foundation for the workshop, but can also be used as a self-learning course.
 
-## Inhaltsverzeichnis
+## Table of Contents
 - [Preamble](preamble/toc.md)
   - [Learning Objectives](preamble/learning_objectives.md)
   - [(Technical) Prerequisites](preamble/technical_prerequisites.md)
