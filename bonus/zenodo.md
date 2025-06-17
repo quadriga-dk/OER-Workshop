@@ -1,1 +1,1 @@
-# Veröffentlichung mit Zenodo-Plugin
+# Publishing with the Zenodo plugin
