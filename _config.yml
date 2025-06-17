@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: "OER Workshop"
-author: QUADIRGA, Hannes Schnaitter
+author: QUADIRGA, Hannes Schnaitter, Lamia Islam, Evgenia Samoilova
 logo: assets/logo.jpg
 copyright: "2025, QUADRIGA"
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, venv, .venv, README.md, LICENSE.md, useful_documentation.md, .github, "**Reviewbogen.md", Checkliste_Finalisierung.md, sprints.md]
