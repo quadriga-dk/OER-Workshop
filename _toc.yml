@@ -23,6 +23,7 @@ chapters:
       - file: content/setup.md
       - file: content/markdown.md
       - file: content/jupyter_notebooks.ipynb
+      - file: content/show_tell.md
   - file: bonus/introduction.md
     sections:
       - file: bonus/typography.md
