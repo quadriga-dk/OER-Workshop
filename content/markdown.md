@@ -96,17 +96,121 @@ Now that you have a file you should add some content to it. Let's explore some p
 
 ### Headings
 
+Markdown files can be structured using headings. There are six levels of headings, corresponding to the number of hash symbols (`#`) used.
+
+```markdown
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
+```
+
+You should only use consecutive headings, meaning that you should not skip levels. For example, you should not use a level 3 heading directly after a level 1 heading. Instead, you should use a level 2 heading in between.
+
 ### Typography
 
+You can use Markdown to format text in various ways:
+```markdown
+*Italic text* is created with asterisks or underscores.
+
+**Bold text** is created with double asterisks or underscores.
+
+`Inline code / inline raw text` is created with backticks.
+```
+
+Other formatting options include:
+```markdown
+- Lists can be created with asterisks, plus signs, or hyphens.
+
+1. Numbered lists can be created with numbers followed by a period.
+
+- [ ] Checkboxes can be created with a hyphen followed by square brackets.
+
+- Blockquotes can be created with a greater-than sign (`>`).
+```
+
 ### Code / raw text
+If you don't want to display code or raw text inline, you can use a code block. A code block is created by using three (or more) backticks (```) before and after the code.
+
+The number of backticks should match, and you can nest code blocks in code blocks with a higher number of backticks.
+
+You can specify the (programming) language for specific syntax highlighting by adding it after the opening backticks.
+
+The code block: 
+````markdown
+```python
+print(2+2)
+```
+````
+produces the output:
+```python
+print(2+2)
+```
 
 ### Links
+Markdown supports HTML and therefore also HTML-style links via an `<a>`-tag. However, it is more common to use the Markdown syntax for links, which is:
+
+```markdown
+[Link text](https://example.com)
+```
+This creates a clickable link with the text "Link text" that points to `https://example.com`.
+
+If you want to specify a link that opens in a new tab, you need to use the HTML syntax:
+
+```html
+<a href="https://example.com" target="_blank">Link text</a>
+```
 
 ### Admonitions
+Admonitions are an addition to standard Markdown specified by Jupyter Book. QUADRIGA developed a set of admonitions specifically for the use in OERs.
+
+Admonitions are highlighted boxes that have an icon, a title, and content. They are defined by using code blocks with a specific syntax. The syntax is:
+
+````markdown
+```{admonition} Title
+:class: tip
+Content of the admonition.
+```
+````
+
+Visit the page on <a href="https://quadriga-dk.github.io/Book_Template/formatierung/admonitions.html" target="_blank" class="external-link">QUADRIGA Admonitions</a> in the QUADRIGA template for inspiration.
 
 ### Images and Figures
 
-### Excercise
+There are two ways to include images in Markdown files. The first is the standard Markdown syntax:
+
+```markdown
+![Alt text](path/to/image.png)
+```
+The second is the Jupyter Book syntax, which allows for more options like captions and alignment:
+
+````markdown
+```{figure} path/to/image.png
+---
+name: fig-image-name
+align: center
+---
+Caption for the image.
+```
+````
+
+If you use a `{figure}` directive, you can reference the figure in your text using `{numref}`. For example, if you have a figure with the name `fig-image-name`, you can reference it like this:
+
+```markdown
+See {numref}`fig-image-name` for an example image.
+```
+
+You've already seen examples of figures and references in the previous pages of this book.
+
+### Exercise
 
 ````{admonition} Exercise: Markdown Syntax
 :class: exercise
