@@ -12,7 +12,7 @@ The following timetable is our proposal for the workshop. Every participant shou
 |0:15-0:40 – 25 minutes	| [Creating a repo with the template](/basics/template.md), [GitHub settings](/basics/github.md), [Technology](/content/setup.md)|
 |0:40-1:00 – 20 minutes	| [Your first own content (Markdown)](/content/markdown.md)|
 |1:00-1:20 – 20 minutes	| [Jupyter Notebook integration](/content/jupyter_notebooks.ipynb)|
-|1:20-1:30 – 10 minutes	| Show & Tell – Conclusion|
+|1:20-1:30 – 10 minutes	| [Show & Tell](/content/show_tell.md) – Conclusion|
 | | |
 |_Bonus_|  |
 |20 minutes | [Advanced typography, academic writing](/bonus/typography.md)|
