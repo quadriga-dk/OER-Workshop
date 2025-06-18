@@ -1,10 +1,10 @@
 # Markdown
 
-In this section, You will create a new Markdown file and add some content to it. Then you will configure Jupyter Book to include this file in the final output. Afterwards, You will add more content while learning different elements of the Markdown syntax.
+In this section, you will create a new Markdown file and add some content to it. Then you will configure Jupyter Book to include this file in the final output. Afterwards, you will add more content while learning different elements of the Markdown syntax.
 
 ## Creating a New Markdown File
 
-Theoretically, You can create a file containing content anywhere in the repository. We recommend that you create folders to represent the structure of your content and place the content files within these folders. For this example, we will create a new file in a folder called `trust`.
+Theoretically, you can create a file containing content anywhere in the repository. We recommend that you create folders to represent the structure of your content and place the content files within these folders. For this example, we will create a new file in a folder called `trust`.
 
 ```{admonition} Caution
 :class: caution
@@ -21,7 +21,7 @@ name: fig-add-new-file
 ```
 To create a new file, click the button "Add file" and then on "Create new file" (see {numref}`fig-add-new-file`). This opens an editor where you can enter a filename.
 
-The filename can contain forward slashes (`/`) to denote a folder structure. For the workshop, use the filename `trust/what_is_trust.md`. This means that You will create a new folder called `trust` and inside it a file called `what_is_trust.md` (see {numref}`fig-filename-filled-out`).
+The filename can contain forward slashes (`/`) to denote a folder structure. For the workshop, use the filename `trust/what_is_trust.md`. This means that you will create a new folder called `trust` and inside it a file called `what_is_trust.md` (see {numref}`fig-filename-filled-out`).
 ```{figure} /assets/content/filename_filled_out.png
 ---
 align: center
@@ -92,7 +92,7 @@ Create a chapter with at least one section. The first section in the chapter sho
 
 
 ## Markup in Markdown – Authoring Content
-Now that You have a file You should add some content to it. Let's explore some parts of basic and advanced Markdown syntax useful for authoring OERs.
+Now that you have a file you should add some content to it. Let's explore some parts of basic and advanced Markdown syntax useful for authoring OERs.
 
 ### Headings
 
@@ -122,6 +122,6 @@ See [What is Trust?](/results/what_is_trust.md) for an example solution.
 
 ## Result
 
-You now have a Markdown file with some content in it and it is included in Your Jupyter Book. You can compare Your result with the [sample solution](/results/what_is_trust.md).
+You now have a Markdown file with some content in it and it is included in your Jupyter Book. You can compare your result with the [sample solution](/results/what_is_trust.md).
 
-In the next section, You will learn how to use Jupyter Notebooks to author content.
+In the next section, you will learn how to use Jupyter Notebooks to author content.

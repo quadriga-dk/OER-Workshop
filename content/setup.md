@@ -1,8 +1,8 @@
 # Setup and Configuration of Jupyter Book
 
-In this section You will create a new repository in GitHub based on the OER-Workshop-Template and configure it. The result is a Website hosted on GitHub Pages that reflects the state of the template but belonging to Your GitHub account. Then you will change `_config.yml` and `CITATION.cff` to personalize the repository and make it Your own.
+In this section you will create a new repository in GitHub based on the OER-Workshop-Template and configure it. The result is a Website hosted on GitHub Pages that reflects the state of the template but belonging to your GitHub account. Then you will change `_config.yml` and `CITATION.cff` to personalize the repository and make it your own.
 
-In the following sections You will add content to Your repository and customize it further.
+In the following sections you will add content to your repository and customize it further.
 
 
 ## Creating a New Repository from the Template
@@ -31,7 +31,7 @@ name: fig-pages-setup
 Use GitHub Actions as<br>
 the source for GitHub Pages
 ```
-After creating the repository, You will be redirected to the new repository. In the upper right corner, click on "Settings". On the left side, click on "Pages". Under "Source" select "GitHub Actions" (see {numref}`fig-pages-setup`).
+After creating the repository, you will be redirected to the new repository. In the upper right corner, click on "Settings". On the left side, click on "Pages". Under "Source" select "GitHub Actions" (see {numref}`fig-pages-setup`).
 
 ```{figure} /assets/content/github_pages_url.png
 ---
@@ -41,10 +41,10 @@ name: fig-pages-url
 ---
 Automatically fill the<br>
 "Website" field with the URL to<br>
-Your GitHub Pages
+your GitHub Pages
 ```
 
-Return to the main page of Your repository via the "Code" tab in the top left. In the right sidebar you can edit the "About" section by clicking on the gear icon. Select the checkbox "Use your GitHub Pages website" (see {numref}`fig-pages-url`). This will prefill the "Website" field with the URL to Your GitHub Pages.
+Return to the main page of your repository via the "Code" tab in the top left. In the right sidebar you can edit the "About" section by clicking on the gear icon. Select the checkbox "Use your GitHub Pages website" (see {numref}`fig-pages-url`). This will prefill the "Website" field with the URL to your GitHub Pages.
 
 ## Edit `README.md`
 
@@ -57,7 +57,7 @@ name: fig-readme-file
 `README.md` file in the<br>
 "Code" tab
 ```
-In the "Code" tab, click on the `README.md` file to open it (see {numref}`fig-readme-file`). In the file view, You can see the repository's folder structure on the left side while the currently selected file fills the rest of the page.
+In the "Code" tab, click on the `README.md` file to open it (see {numref}`fig-readme-file`). In the file view, you can see the repository's folder structure on the left side while the currently selected file fills the rest of the page.
 
 The file view has a toolbar at the top in which you can change the display mode on the left side and download or edit the file on the right side (see {numref}`fig-file-view-toolbar`).
 ```{figure} /assets/content/file_view_toolbar.png
@@ -102,6 +102,10 @@ Commit message dialog
 The commit to `main` automatically triggers the GitHub Action defined in `.github/workflows/deploy-book-python-only.yml` which is predefined in the template. This Action builds the Jupyter Book and deploys it to GitHub Pages. You can see the progress and possible errors of the Action by clicking on the "Actions" tab in the top menu of your repository.
 
 In this workshop, we will not go into detail about GitHub Actions, but you can find more information in the <a href="https://docs.github.com/en/actions" target="_blank" class="external-link">GitHub Actions documentation</a>.
+
+
+## Change the metadata
+Now you can change the metadata of your repository to make it your own. Open the `_config.yml` file in the "Code" tab and edit it to fit your OER
 
 ## The Result
 
