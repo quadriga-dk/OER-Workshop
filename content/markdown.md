@@ -90,7 +90,7 @@ Create a chapter with at least one section. The first section in the chapter sho
 ```
 ````
 
-
+(markdown:markup)=
 ## Markup in Markdown – Authoring Content
 Now that you have a file you should add some content to it. Let's explore some parts of basic and advanced Markdown syntax useful for authoring OERs.
 
