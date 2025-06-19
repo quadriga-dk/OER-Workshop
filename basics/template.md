@@ -29,9 +29,15 @@ For the workshop, you do not need to install Jupyter Book on your own computer. 
 If you want a local installation, this works with the following commands:
 
 ```bash
-$ python3.13 -m venv .venv        # create a new virtual environment
-$ source .venv/bin/activate       # activate the environment
-$ pip install -r requirements.txt # install the required Python packages
+$ python3.13 -m venv .venv            # create a new virtual environment
+
+# On Unix/macOS:
+$ source .venv/bin/activate           # activate the environment
+
+# Or on Windows (cmd.exe):
+> .venv\Scripts\activate              # activate the environment
+
+$ pip install -r requirements.txt     # install the required Python packages
 ```
 If you want to use Jupyter Book then, make sure you are in the root folder of your Jupyter Book project and that the appropriate virtual environment is activated. Then use the following commands:
 
