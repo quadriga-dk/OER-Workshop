@@ -5,5 +5,7 @@
 - Which support do you need to use it effectively?
 
 ## Workshop Results
+- https://github.com/esamoilo/workshop_oer
+- 
 
 - 
