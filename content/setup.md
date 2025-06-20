@@ -46,6 +46,10 @@ your GitHub Pages
 
 Return to the main page of your repository via the "Code" tab in the top left. In the right sidebar you can edit the "About" section by clicking on the gear icon. Select the checkbox "Use your GitHub Pages website" (see {numref}`fig-pages-url`). This will prefill the "Website" field with the URL to your GitHub Pages.
 
+## Allowing Write Access for Pair-Programming
+
+If you want to work in pairs, you can allow your partner to edit your repository. To do this, go to the "Settings" tab of your repository and go to "Collaborators". There, click on "Add people", search for your partner's GitHub username, and add them as a collaborator. They will receive an email inviting them to your repository.
+
 ## Edit `README.md`
 
 ```{figure} /assets/content/code_tab_readme_file.png
