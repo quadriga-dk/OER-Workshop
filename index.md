@@ -4,7 +4,13 @@ As part of the QUADRIGA Annual Conference 2025, a workshop on <a href="https://w
 
 This book serves as the foundation for the workshop, but can also be used as a self-learning course.
 
-![QR Code for https://github.com/quadriga-dk/OER-Workshop](https://quadriga-dk.github.io/qr/_images/f493698c55cbc81bbdeb012387412e26b10f171059c0ac5802ed78855d72f2b7.png)
+```{figure} /assets/qr_workshop.png
+---
+name: fig-qr-workshop
+align: center
+---
+https://github.com/quadriga-dk/OER-Workshop
+```
 
 ## Table of Contents
 - [Preamble](preamble/toc.md)
