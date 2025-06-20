@@ -10,7 +10,7 @@ chapters:
     sections:
       - file: preamble/learning_objectives.md
       - file: preamble/technical_prerequisites.md
-      - file: preamble/prior_knowledge.md
+      # - file: preamble/prior_knowledge.md
       - file: preamble/timetable.md
   - file: basics/introduction.md
     sections:
