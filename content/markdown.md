@@ -47,6 +47,13 @@ Minimal Markdown file with a title
 ```
 Now commit your changes, add a commit message and try to locate the new file in the "Code" tab of your repository. 
 
+```{admonition} Caution
+:class: caution
+You need to add a title to the markdown file by using a heading (e.g. `# What is Trust?`) in your Markdown file. Otherwise, Jupyter Book does not correctly add the files content to the result and the table of contents.
+
+The first `#`-heading in the file will be used as the title of the page and in the table of contents on the resulting website.
+```
+
 ## Configuring Jupyter Book to Include the Markdown File
 If you look at the resulting website, you will see that the new file is not included in the navigation. To tell Jupyter Book to include the file, you need to edit the `_toc.yml` file in the root of your repository. This file defines the table of contents for your book.
 
@@ -74,6 +81,13 @@ chapters:
 ```
 
 Add a new chapter entry for your new file. Commit the change, wait for the action to finish, and then check the resulting website.
+
+```{admonition} Caution
+:class: caution
+YAML files are sensitive to indentation. Make sure you use multiples of two spaces for indentation and don't use tabs.
+
+When editing the file follow the structure of the existing entries.
+```
 
 ````{admonition} Exercise: Chapters and Sections
 :class: exercise
