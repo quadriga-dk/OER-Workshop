@@ -109,7 +109,10 @@ In this workshop, we will not go into detail about GitHub Actions, but you can f
 
 
 ## Change the metadata
-Now you can change the metadata of your repository to make it your own. Open the `_config.yml` file in the "Code" tab and edit it to fit your OER
+Now you can change the metadata of your repository to make it your own. Open the `_config.yml` file in the "Code" tab and edit it to fit your OER.
+At least look at the keys `title`, `author`, `description`, and `repository.url`.
+
+You can also change the `logo` key to point to an image of your choice.
 
 ## The Result
 
